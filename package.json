@@ -1,0 +1,31 @@
+{
+  "name": "iono",
+  "version": "1.0.0",
+  "description": "ionoNPM",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --colors",
+    "test": "test",
+    "build": "webpack --mode production --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amtrav42/iono.git"
+  },
+  "author": "ATDL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amtrav42/iono/issues"
+  },
+  "homepage": "https://github.com/amtrav42/iono#readme",
+  "devDependencies": {
+    "@babel/core": "  7.6.0",
+    "@babel/preset-env": "7.6.0",
+    "@babel/preset-react": "7.0.0",
+    "babel-loader": "8.0.6",
+    "html-webpack-plugin": "3.2.0",
+    "webpack": "4.39.3",
+    "webpack-cli": "3.3.8",
+    "webpack-dev-server": "3.8.0"
+  }
+}
